@@ -1,0 +1,41 @@
+#
+#	Parameter File
+#
+
+# Program
+Debug			= 1
+
+# General
+TimeReality		= 0 # 0 = Imaginary time, 1 = Real time
+InputFile		= 'initialwf.dat'
+
+# Run time
+StaticIter		= 0
+RampIter		= 0
+ReleaseIter		= 10000
+OutputsName		= 'frame'
+OutputsNum		= 100
+
+# Grid Params
+Dimensions		= 1
+PointsX			= 8000
+PointsY			= 800
+PointsZ			= 200
+StepX			= 0.0025
+StepY			= 0.02
+StepZ			= 0.001
+StepT			= 0.00002
+
+# Problem-specific
+Nonlinearity		= 0.0
+Potential		= 0 # 0 = Harmonic , 1 = Ring
+Method			= 0 # 0 = Crank-Nicolson, 1 = FFT
+Depth			= 500
+RadiusRing		= 2
+Rampdown		= 0 # auto 0 if pot=0, also have different types (linear, etc.)
+RampFraction		= 0.8
+
+# Approximation schemes
+UseHybridLVM		= 0
+Natoms		 	= 750000
+LengthUnit		= 10e-6

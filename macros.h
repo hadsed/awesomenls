@@ -1,0 +1,2 @@
+#define MAX_LINE_LENGTH 300
+#define pi 3.14159265358979

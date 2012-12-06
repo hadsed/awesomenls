@@ -1,0 +1,14 @@
+Dimensions = 1
+Reality = 0
+StaticIter = 0
+RampIter = 0
+ReleaseIter = 10000
+PointsX = 8000
+PointsY = 800
+PointsZ = 200
+StepX = 0.002500
+StepY = 0.020000
+StepZ = 0.001000
+StepT = 0.000020
+Nonlinearity = 0.000000
+Potential = 0

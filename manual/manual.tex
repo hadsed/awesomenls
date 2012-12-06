@@ -1,0 +1,68 @@
+% researchpaper.tex
+% document formatting
+\documentclass[12pt]{article}
+\usepackage[top=1.2in,bottom=1.2in,left=1in, right=1in]{geometry}
+
+% for figures
+\usepackage[]{graphics}
+\usepackage[]{graphicx}
+
+% for code
+\usepackage{listings}
+
+% for mathematics
+\usepackage{amssymb}
+\usepackage{amsmath} 
+\newcommand{\bra}[1]{\left< #1 \right|} % for Dirac kets
+\newcommand{\ket}[1]{\left| #1 \right>} % for Dirac bras
+\newcommand{\bracket}[2]{\left< #1 \right| \left. #2 \right>}
+
+
+\begin{document}
+\begin{titlepage}
+
+\begin{center}
+
+\vspace{2 cm}
+
+% Upper part of the page
+\textsc{\Large Georgia Southern University}\\[1.5cm]
+
+% Title
+{ \huge \bfseries Awesome NLS\\[0.5cm] \\[0.4cm]
+
+\vspace{1 cm}
+
+% Author and supervisor
+\emph{Author:}\\
+Hadayat \textsc{Seddiqi}\\
+\vspace{0.5 cm}
+\emph{Supervisor:} \\
+Mark \textsc{Edwards}\\
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+
+\title{Technical Manual for Awesome NLS}
+\date{\today}
+\author{Hadayat Seddiqi, Mark Edwards\\ \textit{Georgia Southern University}}
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\section{Introduction}
+
+\begin{thebibliography}{1}
+\bibitem{fort} P. Muruganandam, S. K. Adhikari, ``Fortran programs for the time-dependent Gross-Pitaevskii equation in a fully anisotropic trap'' Comp. Phys. Comm. 180 (10), 1888-1912 (2009).
+
+\end{thebibliography}
+
+%%% END DOCUMENT
+\end{document}
